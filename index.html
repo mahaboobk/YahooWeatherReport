@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" ng-controller="MovieController">
+  <head>
+    <title>Yahoo Weather Forecast</title>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <div class="container-fluid outerdiv">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"><b>Weather Forecast</b></a>
+          </div>
+        </div>
+      </nav>
+
+       <div class="animated zoomInRight">
+        <div class="input-group search-bar">
+          <input type="text" ng-model="search" ng-model-options="{ debounce: 200 }" onclick="select()" class="form-control" placeholder="Enter Country name" autofocus />
+          <span class="input-group-addon bar-style"><i class="glyphicon glyphicon-search"></i></span>
+        </div>
+        <div>
+        <h2>Temperature in  {{search}}</h2><h4>{{details.query.results.channel.item.condition.temp}}</h4>
+        <h2>Date</h2><h4>{{details.query.results.channel.item.condition.date}}</h4>
+        <h2>Climate</h2><h4>{{details.query.results.channel.item.condition.text}}</h4>
+        </div>
+        </div>
+     </div>
+    </div>
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

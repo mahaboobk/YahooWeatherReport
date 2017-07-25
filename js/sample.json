@@ -1,0 +1,149 @@
+{
+ "query": {
+  "count": 1,
+  "created": "2017-07-25T09:22:33Z",
+  "lang": "en-US",
+  "results": {
+   "channel": {
+    "units": {
+     "distance": "mi",
+     "pressure": "in",
+     "speed": "mph",
+     "temperature": "F"
+    },
+    "title": "Yahoo! Weather - Nome, AK, US",
+    "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
+    "description": "Yahoo! Weather for Nome, AK, US",
+    "language": "en-us",
+    "lastBuildDate": "Tue, 25 Jul 2017 01:22 AM AKDT",
+    "ttl": "60",
+    "location": {
+     "city": "Nome",
+     "country": "United States",
+     "region": " AK"
+    },
+    "wind": {
+     "chill": "54",
+     "direction": "203",
+     "speed": "7"
+    },
+    "atmosphere": {
+     "humidity": "90",
+     "pressure": "1011.0",
+     "rising": "0",
+     "visibility": "16.1"
+    },
+    "astronomy": {
+     "sunrise": "0:33 am",
+     "sunset": "5:42 am"
+    },
+    "image": {
+     "title": "Yahoo! Weather",
+     "width": "142",
+     "height": "18",
+     "link": "http://weather.yahoo.com",
+     "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+    },
+    "item": {
+     "title": "Conditions for Nome, AK, US at 12:00 AM AKDT",
+     "lat": "64.499474",
+     "long": "-165.405792",
+     "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
+     "pubDate": "Tue, 25 Jul 2017 12:00 AM AKDT",
+     "condition": {
+      "code": "26",
+      "date": "Tue, 25 Jul 2017 12:00 AM AKDT",
+      "temp": "54",
+      "text": "Cloudy"
+     },
+     "forecast": [
+      {
+       "code": "26",
+       "date": "25 Jul 2017",
+       "day": "Tue",
+       "high": "55",
+       "low": "53",
+       "text": "Cloudy"
+      },
+      {
+       "code": "30",
+       "date": "26 Jul 2017",
+       "day": "Wed",
+       "high": "63",
+       "low": "54",
+       "text": "Partly Cloudy"
+      },
+      {
+       "code": "12",
+       "date": "27 Jul 2017",
+       "day": "Thu",
+       "high": "60",
+       "low": "53",
+       "text": "Rain"
+      },
+      {
+       "code": "11",
+       "date": "28 Jul 2017",
+       "day": "Fri",
+       "high": "55",
+       "low": "53",
+       "text": "Showers"
+      },
+      {
+       "code": "12",
+       "date": "29 Jul 2017",
+       "day": "Sat",
+       "high": "55",
+       "low": "53",
+       "text": "Rain"
+      },
+      {
+       "code": "12",
+       "date": "30 Jul 2017",
+       "day": "Sun",
+       "high": "58",
+       "low": "54",
+       "text": "Rain"
+      },
+      {
+       "code": "39",
+       "date": "31 Jul 2017",
+       "day": "Mon",
+       "high": "57",
+       "low": "55",
+       "text": "Scattered Showers"
+      },
+      {
+       "code": "39",
+       "date": "01 Aug 2017",
+       "day": "Tue",
+       "high": "55",
+       "low": "54",
+       "text": "Scattered Showers"
+      },
+      {
+       "code": "26",
+       "date": "02 Aug 2017",
+       "day": "Wed",
+       "high": "57",
+       "low": "49",
+       "text": "Cloudy"
+      },
+      {
+       "code": "12",
+       "date": "03 Aug 2017",
+       "day": "Thu",
+       "high": "58",
+       "low": "52",
+       "text": "Rain"
+      }
+     ],
+     "description": "<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/26.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Cloudy\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Tue - Cloudy. High: 55Low: 53\n<BR /> Wed - Partly Cloudy. High: 63Low: 54\n<BR /> Thu - Rain. High: 60Low: 53\n<BR /> Fri - Showers. High: 55Low: 53\n<BR /> Sat - Rain. High: 55Low: 53\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n(provided by <a href=\"http://www.weather.com\" >The Weather Channel</a>)\n<BR />\n]]>",
+     "guid": {
+      "isPermaLink": "false"
+     }
+    }
+   }
+  }
+ }
+}
